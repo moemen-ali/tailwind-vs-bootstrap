@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  @apply font-Outfit;
+}
+.main-bg {
+  @apply bg-eggshell;
+}
+.bullet-rose {
+  @apply list-disc;
+  li::marker {
+    @apply text-rose;
+  }
+}
+.bullet-nutmeg {
+  @apply list-disc;
+  li::marker {
+    @apply text-nutmeg;
+  }
+}
+.numbers-nutmeg {
+  li::marker {
+    @apply text-nutmeg;
+  }
+}
+
+.main-title { 
+  @apply text-blue-500 font-semibold text-6xl p-8;
+}

@@ -1,0 +1,97 @@
+@import "~bootstrap/scss/bootstrap.scss";
+$nutmeg: #8c6d4f;
+$eggshell: #f4e6d9;
+$darkRaspberry: #8c6d4f;
+$roseWhite: #fdf7f9;
+$rose: #952853;
+$lightGrey: #e0e5e9;
+$wengeBrown: #635541;
+$darkCharcoal: #2c2d31;
+
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bg-rose-white {
+  background-color: $roseWhite;
+}
+.bg-eggshell {
+  background-color: $eggshell;
+}
+
+.text-rose {
+  color: $rose;
+}
+.text-nutmeg {
+  color: $nutmeg;
+}
+
+.font-Outfit {
+  font-family: "Outfit";
+}
+.font-YoungSerif {
+  font-family: "YoungSerif";
+}
+body {
+  font-family: "Outfit";
+}
+
+.text-lg {
+  font-size: 20px;
+}
+.text-xl {
+  font-size: 30px;
+}
+
+.rounded-24 {
+  border-radius: 24px;
+}
+.rounded-16 {
+  border-radius: 16px;
+}
+
+.bullet-rose {
+  list-style-type: disc;
+  li::marker {
+    color: $rose;
+  }
+}
+.bullet-nutmeg {
+  list-style-type: disc;
+  li::marker {
+    color: $nutmeg;
+  }
+}
+.numbers-nutmeg {
+  list-style-type: decimal;
+  li::marker {
+    color: $nutmeg;
+  }
+}
+.size-40 {
+    width: 40px;
+    height: 40px;
+}
